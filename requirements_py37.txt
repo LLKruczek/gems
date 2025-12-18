@@ -1,0 +1,46 @@
+# Build tools (required for building packages from source)
+setuptools>=45.0.0,<60.0.0
+wheel>=0.36.0
+
+# Core scientific computing
+# numpy 1.21.x is the last version that supports Python 3.7
+numpy>=1.19.0,<1.22.0
+pandas>=1.1.0,<1.4.0
+
+# Visualization
+matplotlib>=3.3.0,<3.6.0
+seaborn>=0.11.0,<0.13.0
+
+# Image processing and computer vision
+scikit-image>=0.17.0,<0.20.0
+opencv-python>=4.4.0,<4.6.0
+pillow>=8.0.0,<10.0.0
+mahotas>=1.4.0
+imageio>=2.9.0,<2.11.0
+colorspacious>=1.1.0
+
+# Machine learning
+# scikit-learn 1.0.x is the last version that supports Python 3.7
+scikit-learn>=0.23.0,<1.1.0
+imbalanced-learn>=0.7.0,<0.9.0
+
+# Deep learning (for ResNet models)
+# PyTorch 1.12.x is the last version that supports Python 3.7
+# For CPU-only: torch==1.12.0 torchvision==0.13.0
+# For CUDA: install from pytorch.org with appropriate CUDA version
+torch>=1.7.0,<1.13.0
+torchvision>=0.8.0,<0.14.0
+# skorch 0.11.0 was used in the original notebook (Python 3.7 compatible)
+skorch>=0.10.0,<0.12.0
+
+# Vision Transformers and advanced models
+# timm 0.9.15 is the last version that supports Python 3.7
+# Versions 0.9.16+ require Python 3.8+
+timm>=0.6.0,<0.9.16
+
+# Scientific computing
+scipy>=1.5.0,<1.9.0
+
+# Jupyter notebook environment
+jupyter>=1.0.0
+
